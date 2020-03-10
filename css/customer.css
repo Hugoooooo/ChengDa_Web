@@ -19,4 +19,15 @@
 .loader3 .spin img {
     margin-top: 45px;
     max-width: 90px;
-  }
+}
+
+header .brand {
+    display: inline-block;
+    padding: 0;
+    width: 13vw;
+    line-height: 82px;
+}
+
+header .brand img{
+    width: 100%
+}
