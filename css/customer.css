@@ -15,3 +15,8 @@
     -webkit-transition: .4s;
     transition: .4s;
 }
+
+.loader3 .spin img {
+    margin-top: 45px;
+    max-width: 90px;
+  }
