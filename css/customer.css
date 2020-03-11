@@ -1,5 +1,9 @@
 * {
-    font-family: 'Roboto', '微軟正黑體', sans-serif;
+    font-family: 'Roboto', '微軟正黑體', sans-serif !important;
+}
+
+.map {
+    height: 400px;
 }
 
 .gradient-overlay:after, .gradient-overlay-hover:after, .gradient-slider .slotholder:after {
