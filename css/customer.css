@@ -76,12 +76,12 @@ header .brand img{
     height: 300px;
     display: block;
     margin: 0 auto 40px;
-    background: url('../images/customer/slider2.jpg') center center;
+    background: url('../images/customer/contact.jpg') center center;
     background-size: cover;
     -webkit-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    border: 10px solid #fff;
+    border: 10px solid #e3e3e3;
 }
 
 @media (max-width: 768px){
