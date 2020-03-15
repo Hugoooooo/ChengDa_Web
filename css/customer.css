@@ -9,8 +9,8 @@ html,body {
 .d-none{
 	display: none;
 }
-body,.section-title h4,.section-title p,.section-title .view-all{
-    color: #444;
+body,.section-title h4,.section-title p,.section-title .view-all,.contact-details .contact-info ul li i,.contact-details .contact-info ul li a,footer a,.contact-details{
+    color: #555;
 }
 .section-title:after{
     background: #666;
@@ -55,15 +55,15 @@ body,.section-title h4,.section-title p,.section-title .view-all{
     left: 0;
     top: 0;
     pointer-events: none;
-    background: rgba(0,0,0,0.4);
-    opacity: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 1;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 .loader3 .spin img {
-    margin-top: 45px;
-    max-width: 90px;
+    margin-top: 50px;
+    max-width: 70px;
 }
 
 header .brand {
@@ -165,18 +165,24 @@ footer .footer-widgets .footer-widget .footer-logo{
 }
 .step_button img:hover {
     padding-left: 25px;
-    -webkit-transition: padding 0.2s cubic-bezier(0.55, 0.01, 0.42, 1);}
-
+    -webkit-transition: padding 0.2s cubic-bezier(0.55, 0.01, 0.42, 1);
+}
+.room-services-list ul{
+    margin-bottom: 50px;
+}
 .room-services-list ul li{
-    font-size: 23px;
-    font-weight: 900;
-    color: #20408e;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    background: #20408e;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 3px;
+    border-radius: 23px;
+    padding: 10px 0;
 }
-.list-unstyled.line{
-    border-left: 1.5px solid #20408e;
+.page-title{
+    text-align: center;
 }
 @media screen and (max-width: 768px)
 {
