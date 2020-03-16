@@ -28,6 +28,19 @@ body,.section-title h4,.section-title p,.section-title .view-all,.contact-detail
     min-height: initial;
 }
 
+.contact-details .contact-info ul li {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ffffff;
+    width: 100%;
+    height: 44px;
+    line-height: 45px;
+    margin-bottom: 18px;
+    border: 1px solid #e3e3e3;
+}
+
 .map-canvas2 {
     background: #fff;
     width: 100%;
@@ -56,7 +69,6 @@ body,.section-title h4,.section-title p,.section-title .view-all,.contact-detail
     top: 0;
     pointer-events: none;
     background: rgba(0,0,0,0.3);
-    opacity: 1;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -116,14 +128,6 @@ footer .footer-widgets .footer-widget .footer-logo{
 
 .all_box{width:1200px; max-width:100%; margin:0 auto; padding:0;}
 
-
-.li03 {
-    background-image: url(https://pic03.eapple.com.tw/chengtai/A_bg04.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0 0 20px;
-}
-
 .step_T{
 	text-align:center;
 	padding: 80px 0 50px;}
@@ -146,11 +150,12 @@ footer .footer-widgets .footer-widget .footer-logo{
     font-family: "微軟正黑體",Arail;
     background: #1d3c8b;
     color: #FFF;
-    font-size: 14px;
-    padding: 5px 10px 1px;
+    font-size: 16px;
+    padding: 5px 10px 5px;
     margin: 25px 0 0;
     width: auto;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 .step_trn {
     width: 15px;

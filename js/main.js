@@ -81,7 +81,6 @@ Version:       1.1.0
 
       // MOBILE
       if (screenwidth <= menubreakpoint) {
-
         // CLONE MAIN MENU
         $("#main-menu ul").clone().addClass("mmenu-init").prependTo(mobile_menu).removeAttr('id').removeClass('navbar-nav mx-auto').find('a').siblings('ul.dropdown-menu').removeAttr('class');
 
