@@ -198,6 +198,12 @@ footer .footer-widgets .footer-widget .footer-logo{
     border: 10px solid #e3e3e3;
 }
 
+/* about */
+.about-text {
+    font-size: 17px;
+    font-weight: bold;;
+}
+
 /* ipad & mobile style */
 @media screen and (max-width: 991px){
     /* layout */
