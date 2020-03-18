@@ -116,6 +116,7 @@ footer .footer-widgets .footer-widget .footer-logo{
     width: auto;
     letter-spacing: 1px;
     font-weight: bold;
+    border-radius: 4px;
 }
 .step_trn {
     width: 15px;
