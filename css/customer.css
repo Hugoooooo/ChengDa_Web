@@ -15,7 +15,7 @@ body,.section-title h2,.section-title p,.section-title .view-all,.contact-detail
 header .brand {
     display: inline-block;
     padding: 0;
-    width: 13vw;
+    width: 18vw;
     line-height: 82px;
 }
 header .brand img{ width: 100% }
@@ -221,7 +221,7 @@ footer .footer-widgets .footer-widget .footer-logo{
         width: 35vw;
         line-height: 55px;
     }
-    header .brand .logo img{ max-width: initial; width: 20vw;}
+    header .brand .logo img{ max-width: initial; width: 27vw;}
     .mm-menu .mm-panel_has-navbar .mm-navbar{ height: 55px;}
     /* footer */
     footer .footer-widgets .footer-widget .contact-details{
@@ -237,7 +237,7 @@ footer .footer-widgets .footer-widget .footer-logo{
     }
     footer .footer-widgets .footer-widget .footer-logo{
         margin-bottom: 20px;
-        width: 20vw;
+        width: 38vw;
     }
     footer .footer-widgets{ padding: 30px 0; }
     footer .subfooter .copyrights{
@@ -293,7 +293,7 @@ footer .footer-widgets .footer-widget .footer-logo{
 /* mobile style */
 @media screen and (max-width: 375px){
     /* header  & footer*/
-    header .brand .logo img{ max-width: initial; width: 34vw;}
+    header .brand .logo img{ max-width: initial; width: 50vw;}
     footer .footer-widgets .footer-widget .contact-details{
         width: 66vw;
     }
