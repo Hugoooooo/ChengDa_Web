@@ -136,7 +136,7 @@ footer .footer-widgets .footer-widget .footer-logo{
 
 /* contact page */
 .map {
-    height: 637px;
+    height: 582px;
     min-height: initial;
 }
 .contact-details .contact-info ul li {
@@ -169,8 +169,10 @@ footer .footer-widgets .footer-widget .footer-logo{
     background-color: rgb(229, 227, 223);
 }
 .circle-bg {
-    width: 300px;
-    height: 300px;
+    width: 60vw;
+    height: 60vw;
+    max-width: 250px;
+    max-height: 250px;
     display: block;
     margin: 0 auto 40px;
     background: url('../images/customer/contact.jpg') center center;
@@ -181,30 +183,30 @@ footer .footer-widgets .footer-widget .footer-logo{
     border: 10px solid #e3e3e3;
 }
 
-
-/* mobile style */
-@media screen and (max-width: 768px){
+/* ipad & mobile style */
+@media screen and (max-width: 991px){
     /* layout */
     .back-to-top{ 
         right: 2vw;
         width: 40px;
         height: 40px;
     }
-    .back-to-top.active{ bottom: 16vw;}
+    main{padding: 0;}
+    .back-to-top.active{ bottom: 70px;}
     .back-to-top i{ line-height: 40px;}
     /* header */
     header .brand{
         width: 35vw;
         line-height: 55px;
     }
-    header .brand .logo img{ max-width: initial; }
+    header .brand .logo img{ max-width: initial; width: 20vw;}
     .mm-menu .mm-panel_has-navbar .mm-navbar{ height: 55px;}
     /* footer */
     footer .footer-widgets .footer-widget .contact-details{
-        width: 66vw;
+        width: 44vw;
     }
     footer .footer-widgets .footer-widget .contact-details li{
-        font-size: 3.7vw;
+        font-size: 2.3vw;
         line-height: 1.5;
     }
     footer .footer-widgets .footer-widget{
@@ -213,7 +215,7 @@ footer .footer-widgets .footer-widget .footer-logo{
     }
     footer .footer-widgets .footer-widget .footer-logo{
         margin-bottom: 20px;
-        width: 60vw;
+        width: 20vw;
     }
     footer .footer-widgets{ padding: 30px 0; }
     footer .subfooter .copyrights{
@@ -229,7 +231,11 @@ footer .footer-widgets .footer-widget .footer-logo{
         padding: 10px 0;
     }
     .section-title h2, .section-title.sm h2{ font-size: 30px; }
-
+    .brand-item{
+        height: 13vw;
+        overflow: hidden;
+    }
+    .brand-item img{ transform: translateY(-25%); }
     /* step */
     .step_box1 { width: 100%; }
     .step_box1 img { width: 50%;}
@@ -251,8 +257,30 @@ footer .footer-widgets .footer-widget .footer-logo{
     }
 
     /* contact page */
-    .contact-info{
-        margin-bottom: 30px;
-    }
+    .contact-info{ margin-bottom: 30px; }
+    .map{ margin-bottom: 50px; height: 50vh;}
 
+    /* reveal page */
+    .gallery-page{ margin-top: 30px; min-height: 100vh}
+    .gallery-filters{ margin-bottom: 30px; }
+}
+
+/* mobile style */
+@media screen and (max-width: 375px){
+    /* header  & footer*/
+    header .brand .logo img{ max-width: initial; width: 34vw;}
+    footer .footer-widgets .footer-widget .contact-details{
+        width: 66vw;
+    }
+    footer .footer-widgets .footer-widget .contact-details li{
+        font-size: 3.7vw;
+        line-height: 1.5;
+    }
+    footer .footer-widgets .footer-widget .footer-logo{
+        margin-bottom: 20px;
+        width: 60vw;
+    }
+    /* index */
+    .brand-item{ height: 50vw; }
+    
 }

@@ -1723,7 +1723,7 @@ Version:       1.1.0
       ],
       responsive: {
         0: {
-          items: 1
+          items: 2
         },
         480: {
           items: 2
